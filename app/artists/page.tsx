@@ -52,7 +52,7 @@ export default function ArtistsPage() {
                   alt={artist.name}
                   width={300}
                   height={300}
-                  className="mb-2 mx-auto rounded-md h-64 w-64"
+                  className="mb-2 mt-8 mx-auto rounded-md h-64 w-64"
                 />
                 <CardTitle className="text-2xl font-semibold mt-4">{artist.name}</CardTitle>
                 <CardDescription className="text-muted-foreground">{artist.genre}</CardDescription>
