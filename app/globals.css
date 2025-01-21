@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #0c0b0b;
+    --card: #ffffff;
+    --card-foreground: #2b0d0a;
+    --popover: #ffffff;
+    --popover-foreground: #2b0d0a;
+    --primary: #948cff;
+    --primary-foreground: #ffffff;
+    --secondary: #ffffff;
+    --secondary-foreground: #3e4d5e;
+    --muted: #ffffff;
+    --muted-foreground: #8d8d8d;
+    --accent: #ffffff;
+    --accent-foreground: #3e4d5e;
+    --destructive: #f04444;
+    --destructive-foreground: #e9f5ff;
+    --border: #d5dce0;
+    --input: #d5dce0;
+    --ring: #948cff;
+    --radius: 0.5rem;
+    --chart-1: #f45d3c;
+    --chart-2: #2a9f77;
+    --chart-3: #3f4f61;
+    --chart-4: #e0c840;
+    --chart-5: #f7a946;
+  }
+
+  .dark {
+    --background: #0d0c0c;
+    --foreground: #e9f5ff;
+    --card: #0d0c0c;
+    --card-foreground: #e9f5ff;
+    --popover: #0d0c0c;
+    --popover-foreground: #e9f5ff;
+    --primary: #948cff;
+    --primary-foreground: #e9f5ff;
+    --secondary: #0d0c0c;
+    --secondary-foreground: #e9f5ff;
+    --muted: #0d0c0c;
+    --muted-foreground: #a5a9a6;
+    --accent: #0d0c0c;
+    --accent-foreground: #e9f5ff;
+    --destructive: #99222e;
+    --destructive-foreground: #e9f5ff;
+    --border: #242424;
+    --input: #2a4642;
+    --ring: #948cff;
+    --chart-1: #3884d8;
+    --chart-2: #469f73;
+    --chart-3: #ffcc66;
+    --chart-4: #bb5ddb;
+    --chart-5: #f84d70;
+  }
+}
+
+
+ 
+@layer base {
+  * {
+    font-family: "Manrope", serif;
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
