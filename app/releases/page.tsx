@@ -50,7 +50,7 @@ export default function ReleasesPage() {
         {releases.length > 0 ? (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {releases.map((release, index) => (
-              <Card key={index}>
+              <Card key={index} className="border shadow-md hover:shadow-lg transition-shadow p-0 rounded-md">
                 <CardContent className="p-6 flex flex-col items-center">
                   <Image
                     src={release.image || '/placeholder.svg'}
