@@ -7,14 +7,14 @@ const artists = [
     image: "/artists/skychild.png",
     genre: "Shoegaze / Cloud Rap / Hip-Hop",
     bio: "skychild, 18 year old from Istanbul, Turkey, is a multi-talented music producer, songwriter, developer, and label owner.",
-    location: "Istanbul, TR"
+    location: "TR, Istanbul"
   },
   {
     name: "andeo",
     image: "/artists/andeo.png",
     genre: "Hip-Hop",
     bio: "18 year old Hiphop producer from Turkey",
-    location: "Istanbul, TR"
+    location: "TR, Istanbul"
   },
   {
     name: "ad0rken",
@@ -28,7 +28,7 @@ const artists = [
     image: "/artists/mq.png",
     genre: "Punk",
     bio: "mq is an emo rapper from Texas, born on November 25, 2006, known for his heartfelt lyrics and moody beats.",
-    location: "Texas, US"
+    location: "US, Texas"
   }
 ];
 
@@ -52,7 +52,7 @@ export default function ArtistsPage() {
                   alt={artist.name}
                   width={300}
                   height={300}
-                  className="mb-2 mt-8 mx-auto rounded-md h-64 w-64"
+                  className="mb-2 mt-8   mx-auto rounded-md h-64 w-64"
                 />
                 <CardTitle className="text-2xl font-semibold mt-4">{artist.name}</CardTitle>
                 <CardDescription className="text-muted-foreground">{artist.genre}</CardDescription>

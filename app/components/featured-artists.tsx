@@ -2,10 +2,10 @@ import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 
 const artists = [
-  { name: "skychild", image: "/artists/skychild.png?height=400&width=400", date: "2006", location: "Istanbul, TR" },
-  { name: "Andeo", image: "/artists/andeo.png?height=400&width=400", date: "2006", location: "New Jersey" },
-  { name: "AD0RKEN", image: "/artists/adorken.png?height=400&width=400", date: "2006", location: "Maryland" },
-  { name: "mq", image: "/artists/mq.png?height=400&width=400", date: "2006", location: "Texas" },
+  { name: "skychild", image: "/artists/skychild.png?height=400&width=400", date: "2006", location: "TR, Istanbul" },
+  { name: "Andeo", image: "/artists/andeo.png?height=400&width=400", date: "2006", location: "TR, Istanbul" },
+  { name: "AD0RKEN", image: "/artists/adorken.png?height=400&width=400", date: "2006", location: "UK, Leads" },
+  { name: "mq", image: "/artists/mq.png?height=400&width=400", date: "2006", location: "US, Texas" },
 ]
 
 export function FeaturedArtists() {
