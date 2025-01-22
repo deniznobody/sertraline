@@ -14,13 +14,13 @@ export default function LegalPage() {
         Legal Information
       </h1>
       <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-        <TabsList className="flex border rounded-lg">
+        <TabsList className="flex border rounded-md">
           <TabsTrigger
             value="tos"
             className={`w-1/2 py-4 text-lg font-medium uppercase transition-all ${
               activeTab === "tos"
-                ? "text-white"
-                : "text-gray-400 hover:text-white"
+                ? "dark:text-white text-black"
+                : "text-gray-400 hover:dark:text-white hover:text-black"
             }`}
           >
             Terms of Service
@@ -29,22 +29,22 @@ export default function LegalPage() {
             value="privacy"
             className={`w-1/2 py-4 text-lg font-medium uppercase transition-all ${
               activeTab === "privacy"
-                ? "text-white"
-                : "text-gray-400 hover:text-white"
+                ? "dark:text-white text-black"
+                : "text-gray-400 hover:dark:text-white hover:text-black"
             }`}
           >
             Privacy Policy
-          </TabsTrigger>
+          </TabsTrigger>    
         </TabsList>
         <div className="mt-10">
           <TabsContent value="tos">
-            <h2 className="text-2xl font-semibold mb-6 text-white">
+            <h2 className="text-2xl font-semibold mb-6 dark:text-white text-black">
               Terms of Service
             </h2>
             <TermsOfService />
           </TabsContent>
           <TabsContent value="privacy">
-            <h2 className="text-2xl font-semibold mb-6 text-white">
+            <h2 className="text-2xl font-semibold mb-6 dark:text-white text-black">
               Privacy Policy
             </h2>
             <PrivacyPolicy />

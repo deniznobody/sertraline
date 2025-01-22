@@ -19,7 +19,7 @@ export function PrivacyPolicy() {
         >
           1. Information We Collect
         </AccordionTrigger>
-        <AccordionContent className={`accordion-content ${openItems.includes("item-1") ? "open" : ""}`}>
+        <AccordionContent className={`accordion-content py-4 ${openItems.includes("item-1") ? "open" : ""}`}>
           We collect information you provide directly to us, such as when you create an account, use our services, or
           communicate with us.
         </AccordionContent>
@@ -32,7 +32,7 @@ export function PrivacyPolicy() {
         >
           2. How We Use Your Information
         </AccordionTrigger>
-        <AccordionContent className={`accordion-content ${openItems.includes("item-2") ? "open" : ""}`}>
+        <AccordionContent className={`accordion-content py-4 ${openItems.includes("item-2") ? "open" : ""}`}>
           We use the information we collect to provide, maintain, and improve our services, to develop new ones, and to
           protect our company and our users.
         </AccordionContent>
@@ -45,7 +45,7 @@ export function PrivacyPolicy() {
         >
           3. Information Sharing and Disclosure
         </AccordionTrigger>
-        <AccordionContent className={`accordion-content ${openItems.includes("item-3") ? "open" : ""}`}>
+        <AccordionContent className={`accordion-content py-4 ${openItems.includes("item-3") ? "open" : ""}`}>
           We do not share personal information with companies, organizations, or individuals outside of our company
           except in specific circumstances outlined in this policy.
         </AccordionContent>
@@ -58,7 +58,7 @@ export function PrivacyPolicy() {
         >
           4. Data Security
         </AccordionTrigger>
-        <AccordionContent className={`accordion-content ${openItems.includes("item-4") ? "open" : ""}`}>
+        <AccordionContent className={`accordion-content py-4 ${openItems.includes("item-4") ? "open" : ""}`}>
           We work hard to protect our users from unauthorized access to or unauthorized alteration, disclosure, or
           destruction of information we hold.
         </AccordionContent>
@@ -71,7 +71,7 @@ export function PrivacyPolicy() {
         >
           5. Your Choices
         </AccordionTrigger>
-        <AccordionContent className={`accordion-content ${openItems.includes("item-5") ? "open" : ""}`}>
+        <AccordionContent className={`accordion-content py-4 ${openItems.includes("item-5") ? "open" : ""}`}>
           You may update, correct, or delete your account information at any time by logging into your online account or
           by contacting us.
         </AccordionContent>
