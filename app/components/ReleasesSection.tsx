@@ -10,10 +10,10 @@ interface Album {
 }
 
 const albums: Album[] = [
-    { title: 'Mari Christmas (EP)', artist: 'adorken', image: '/albums/album1.png' },
-    { title: 'IN THE H3ART', artist: 'Andeo', image: '/albums/album2.png' },
-    { title: 'STUPID GIRL', artist: 'skychild', image: '/albums/album3.png' },
-    { title: 'goth angelz (EP)', artist: 'adorken', image: '/albums/album4.png' }
+    { title: 'Mari Christmas', artist: 'andeo', image: '/albums/mari.png' },
+    { title: 'HAVASIZ DUMAN SAHASI', artist: 'andeo', image: '/albums/havasiz.png' },
+    { title: 'IN THE H3ART', artist: 'ad0rken', image: '/albums/album2.png' },
+    { title: 'STUPID GIRL', artist: 'ad0rken', image: '/albums/album3.png' },
 ]
 
 export default function ReleasesSection() {

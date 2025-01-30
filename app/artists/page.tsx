@@ -2,13 +2,13 @@ import Image from "next/image";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 
 const artists = [
-  {
-    name: "skychild",
-    image: "/artists/skychild.png",
-    genre: "Shoegaze / Cloud Rap / Hip-Hop",
-    bio: "skychild, 18 year old from Istanbul, Turkey, is a multi-talented music producer, songwriter, developer, and label owner.",
-    location: "TR, Istanbul"
-  },
+  // {
+  //   name: "skychild",
+  //   image: "/artists/skychild.png",
+  //   genre: "Shoegaze / Cloud Rap / Hip-Hop",
+  //   bio: "skychild, 18 year old from Istanbul, Turkey, is a multi-talented music producer, songwriter, developer, and label owner.",
+  //   location: "TR, Istanbul"
+  // },
   {
     name: "andeo",
     image: "/artists/andeo.png",

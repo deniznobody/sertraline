@@ -12,7 +12,6 @@ interface Artist {
 const artists: Artist[] = [
     { name: 'adorken', image: '/artists/artist1.png', description: 'Electronic music producer known for atmospheric soundscapes.' },
     { name: 'Andeo', image: '/artists/artist2.png', description: 'Indie folk artist with a penchant for storytelling through music.' },
-    { name: 'skychild', image: '/artists/artist3.png', description: 'Alternative rock band pushing the boundaries of the genre.' }
 ]
 
 export default function ArtistsSection() {
